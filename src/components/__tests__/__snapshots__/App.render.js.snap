@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> will render with Toolbar and Editor 1`] = `
+<div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-underline"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-italic"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bold"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-link"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-cut"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-undo"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-redo"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-tint"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-strikethrough"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-trash-alt"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-mouse-pointer"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-copy"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-align-center"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-align-left"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-align-right"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fab fa-markdown"
+      />
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-file-export"
+      />
+    </button>
+  </div>
+  <p>
+    Please press 
+    <i
+      class="fab fa-markdown"
+    />
+     to enable markdown. Press cmd+b for 
+    <b>
+      Bold
+    </b>
+    . Press cmd+i for 
+    <i>
+      Italic
+    </i>
+    . Press control+u for 
+    <u>
+      Underline
+    </u>
+    . Press cmd+a for Select All. Press cmd+p to print.
+  </p>
+  <div>
+    <div
+      contentEditable={true}
+      onInput={[Function]}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Editor/> will render with markup editor and editor display 1`] = `
+<div>
+  <div
+    contentEditable={true}
+    onInput={[Function]}
+  />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<h1>Hello</h1>",
+      }
+    }
+    onInput={[Function]}
+  />
+</div>
+`;
+
+exports[`<Editor/> will render with regular editor 1`] = `
+<div>
+  <div
+    contentEditable={true}
+    onInput={[Function]}
+  />
+</div>
+`;

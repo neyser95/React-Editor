@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toolbar /> will render will all the underline and italic buttons passed as props 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-underline"
+    />
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-italic"
+    />
+  </button>
+</div>
+`;
