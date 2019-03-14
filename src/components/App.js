@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Toolbar from './Toolbar/Toolbar';
+import Editor from './Editor/Editor';
 
 class App extends Component {
   // * Our App will be a class component and hanling all state
@@ -68,14 +69,26 @@ class App extends Component {
       alignRight: {
         icon: 'fas fa-align-right',
         event: ''
+      },
+      export: {
+        icon: 'fas fa-file-export',
+        event: ''
       }
-    }
+    },
+    editorBody: ''
   };
+
+  // * Will handle all the changes made inside the editor
+  handleEditorChange = (e) => {
+    const editorBody = e.target.innerHTML;
+    this.setState({editorBody}); 
+  }
 
   render() {
     return (
       <div>
         <Toolbar toolbarButtons={this.state.toolbarButtons} />
+        <Editor handleEditorChange={this.handleEditorChange} />
       </div>
     );
   }
