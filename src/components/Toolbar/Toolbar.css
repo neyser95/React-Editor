@@ -1,0 +1,26 @@
+/* * Block */
+.Toolbar{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+/* * Button Element*/
+.Toolbar__btn{
+  padding: 5px;
+  margin: 0 5px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* * Button Modifiers */
+.Toolbar__btn--active{
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+.Toolbar__btn:hover{
+  opacity: 0.7;
+}
