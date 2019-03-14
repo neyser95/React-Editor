@@ -20,7 +20,7 @@ const editor = (props) => {
           <div
             className={classNames.Editor__Split}
             onInput={(e) => props.handleEditorChange(e)}
-            dangerouslySetInnerHTML={{__html: '' + props.parsedMarkdown}}>
+            dangerouslySetInnerHTML={{__html: props.parsedMarkdown}}>
           </div>
         </Fragment>
       }

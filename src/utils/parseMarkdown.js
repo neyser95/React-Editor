@@ -1,9 +1,11 @@
 // * This parser would handle markdown language and create required html elements
 export default function parseMarkdown(markdown) {
+  // * i will track the character in markdown and the html will hold the elements created by the parser.
   let i = 0;
   let html = '';
 
-  // * Makes a header depending the amount of hashes
+  // * Makes a header depending the amount of hashes.
+  // * ex: hashCounter = 2, title will be <h2></h2>
   function makeHeader() {
     let hashCounter = 1;
     let title = '';
@@ -21,12 +23,13 @@ export default function parseMarkdown(markdown) {
       titleContent += markdown[i]; 
     }
 
-    title.titleContent = titleContent.trim();
+    // * This will add the text content to the 
+    title.textContent = titleContent.trim();
 
     html += title;
   } 
 
-  // * loops through the content in the editor 
+  // * would loop through the content in the editor and invoke the function that matchs the switch statement.
   function traverseMarkdown() {
     while (i < markdown.length) {
       switch (markdown[i]) {
