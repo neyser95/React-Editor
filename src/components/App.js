@@ -139,7 +139,7 @@ class App extends Component {
           toolbarButtons={this.state.toolbarButtons}
           handleMarkdownEnabled={this.handleMarkdownEnabled} />
         <p>
-          Please press <i class="fab fa-markdown"></i> to enable markdown(Only headings show).
+          Please press <i className="fab fa-markdown"></i> to enable markdown(Only headings show).
           Press cmd+b for <b>Bold</b>.
           Press cmd+i for <i>Italic</i>.
           Press control+u for <u>Underline</u>.
