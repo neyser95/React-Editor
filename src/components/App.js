@@ -78,7 +78,7 @@ class App extends Component {
     editorBody: ''
   };
 
-  // * Will handle all the changes made inside the editor
+  // * Will handle all the changes made inside the editor and save it to state for later use.
   handleEditorChange = (e) => {
     const editorBody = e.target.innerHTML;
     this.setState({editorBody}); 
