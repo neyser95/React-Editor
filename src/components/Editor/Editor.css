@@ -1,10 +1,27 @@
-.Editor{
+.EditorLayout{
+  display: flex;
   border: solid 1px rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100vh;
-  padding: 10px;
   box-sizing: border-box;
   margin: 10px 0;
+}
+.Editor{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Editor__Split{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.MarkupEditor{
+  border-right: solid 1px rgba(0, 0, 0, 0.7);
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* * Will only print content within the editor */

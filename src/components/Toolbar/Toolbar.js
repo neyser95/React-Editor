@@ -11,12 +11,13 @@ const toolBar = (props) => {
       <button
         key={button + i}
         className={classNames.Toolbar__btn}
-        onClick={() => {
-          toolbarButtons[button].event();
-        }}>
+        onClick={
+          button === 'markdown' ? () => {props.handleMarkdownEnabled();}
+            : () => {toolbarButtons[button].event();}
+        }>
+
         <i className={toolbarButtons[button].icon}></i>
-      </button>
-    );
+      </button>)
   });
 
   return (
