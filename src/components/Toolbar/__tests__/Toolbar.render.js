@@ -19,12 +19,14 @@ const state = {
   }
 };
 
-//* Tests to make sure that comopnent does not change unexpectdly.
-test('Toolbar will render will all the underline and italic buttons passed as props', () => {
-  const toolbar = renderer.create(
-    <Toolbar toolbarButtons={state.toolbarButtons}/>
-  );
+describe('<Toolbar />', () => {
+  //* Tests to make sure that comopnent does not change unexpectdly.
+  it('will render will all the underline and italic buttons passed as props', () => {
+    const toolbar = renderer.create(
+      <Toolbar toolbarButtons={state.toolbarButtons} />
+    );
 
-  let toolComponent = toolbar.toJSON();
-  expect(toolComponent).toMatchSnapshot();
+    let toolComponent = toolbar.toJSON();
+    expect(toolComponent).toMatchSnapshot();
+  });
 });

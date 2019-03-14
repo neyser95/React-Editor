@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Editor will render with markup editor and editor display 1`] = `
+exports[`<Editor/> will render with markup editor and editor display 1`] = `
 <div>
   <div
     contentEditable={true}
@@ -17,7 +17,7 @@ exports[`Editor will render with markup editor and editor display 1`] = `
 </div>
 `;
 
-exports[`Editor will render with regular editor 1`] = `
+exports[`<Editor/> will render with regular editor 1`] = `
 <div>
   <div
     contentEditable={true}
