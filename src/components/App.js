@@ -7,83 +7,67 @@ class App extends Component {
     toolbarButtons: {
       underline: {
         icon: 'fas fa-underline',
-        event: '',
-        active: false
+        event: ''
       },
       italic: {
         icon: 'fas fa-italic',
-        event: '',
-        active: false
+        event: ''
       },
       bold: {
         icon: 'fas fa-bold',
-        event: '',
-        active: false
+        event: ''
       },
       link: {
         icon: 'fas fa-link',
-        event: '',
-        active: false
+        event: ''
       },
       cut: {
         icon: 'fas fa-cut',
-        event: '',
-        active: false
+        event: ''
       },
       image: {
         icon: 'fas fa-file-image',
-        event: '',
-        active: false
+        event: ''
       },
       undo: {
         icon: 'fas fa-undo',
-        event: '',
-        active: false
+        event: ''
       },
       redo: {
         icon: 'fas fa-redo',
-        event: '',
-        active: false
+        event: ''
       },
       color: {
         icon: 'fas fa-tint',
-        event: '',
-        active: false
+        event: ''
       },
       crossText: {
         icon: 'fas fa-strikethrough',
-        event: '',
-        active: false
+        event: ''
       },
       delete: {
         icon: 'fas fa-trash-alt',
-        event: '',
-        active: false
+        event: ''
       },
       selectAll: {
         icon: 'fas fa-mouse-pointer',
-        event: '',
-        active: false
+        event: ''
       },
       copy: {
         icon: 'fas fa-copy',
-        event: '',
-        active: false
+        event: ''
       },
       alignCenter: {
         icon: 'fas fa-align-center',
-        event: '',
-        active: false
+        event: ''
       },
       alignLeft: {
         icon: 'fas fa-align-left',
-        event: '',
-        active: false
+        event: ''
       },
       alignRight: {
         icon: 'fas fa-align-right',
-        event: '',
-        active: false
+        event: ''
       }
     }
   };
