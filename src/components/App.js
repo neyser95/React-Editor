@@ -144,6 +144,7 @@ class App extends Component {
           Press cmd+i for <i>Italic</i>.
           Press control+u for <u>Underline</u>.
           Press cmd+a for Select All.
+          Press cmd+p to print.
         </p>
         <Editor
           handleEditorChange={this.handleEditorChange}
