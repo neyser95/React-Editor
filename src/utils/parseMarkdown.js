@@ -12,15 +12,18 @@ export default function parseMarkdown(markdown) {
     let titleContent = '';
     
     while(markdown[hashCounter] === '#'){
-      if(hashCounter > 6) return;
+      if(hashCounter >= 6) return;
       hashCounter++;
     }
 
     // * h plus the amount of hashes to create the title
     title = document.createElement(`h${hashCounter}`);
 
-    while(markdown[i] === '<'){
-      titleContent += markdown[i]; 
+    // * since we looped hashcounter times when then want to loop to get the text content with i
+    i = hashCounter;
+    while(i <= markdown.length || markdown[i] === '<'){
+      titleContent += markdown[i];
+      i++;
     }
 
     // * This will add the text content to the 
