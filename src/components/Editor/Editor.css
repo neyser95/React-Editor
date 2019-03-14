@@ -6,3 +6,21 @@
   box-sizing: border-box;
   margin: 10px 0;
 }
+
+/* * Will only print content within the editor */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .Editor, .Editor * {
+    visibility: visible;
+  }
+
+  .Editor {
+    position: absolute;
+    border: none;
+    left: 0;
+    top: 0;
+  }
+}
