@@ -25,5 +25,5 @@
   background-color: rgb(0, 0, 0);
 }
 .Toolbar__btn:hover{
-  opacity: 0.7;
+  box-shadow: 1px 1px 1px black;
 }
